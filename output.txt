@@ -1,50 +1,1 @@
-Backup of Database Server: vietdv-u18-01
 
-======================================================================
-Backup Start Time: Mon Jul 05 2021 07:00:02 +0700
-======================================================================
-
-======================================================================
-Backup in progress...
-======================================================================
-----------------------------------------------------------------------
-Backing up database: dvdrental...
-Completed 256.0 KiB/645.9 KiB (404.1 KiB/s) with 1 file(s) remainingCompleted 512.0 KiB/645.9 KiB (731.2 KiB/s) with 1 file(s) remainingCompleted 645.9 KiB/645.9 KiB (733.9 KiB/s) with 1 file(s) remainingupload: ../var/backups/postgresql/2021-07-05-at-07-00-02_dvdrental.dump to s3://vietdv-dev-postgres/2021-07-05-at-07-00-02_dvdrental.dump
-
-Database dvdrental has been backed up with information:
-
-Size         Location
-648K	/var/backups/postgresql/2021-07-05-at-07-00-02_dvdrental.dump
-----------------------------------------------------------------------
-----------------------------------------------------------------------
-Backing up database: phonerental...
-Completed 256.0 KiB/645.9 KiB (508.3 KiB/s) with 1 file(s) remainingCompleted 512.0 KiB/645.9 KiB (898.3 KiB/s) with 1 file(s) remainingCompleted 645.9 KiB/645.9 KiB (792.3 KiB/s) with 1 file(s) remainingupload: ../var/backups/postgresql/2021-07-05-at-07-00-02_phonerental.dump to s3://vietdv-dev-postgres/2021-07-05-at-07-00-02_phonerental.dump
-
-Database phonerental has been backed up with information:
-
-Size         Location
-648K	/var/backups/postgresql/2021-07-05-at-07-00-02_phonerental.dump
-----------------------------------------------------------------------
-
-======================================================================
-Deleting old backups...
-======================================================================
-
-Deleting old backups from S3..
-Deleting 2021-07-04-at-01-00-01_dvdrental.dump
-delete: s3://vietdv-dev-postgres/2021-07-04-at-01-00-01_dvdrental.dump
-Deleting 2021-07-04-at-01-00-01_phonerental.dump
-delete: s3://vietdv-dev-postgres/2021-07-04-at-01-00-01_phonerental.dump
-----------------------------------------------------------------------
-
-Deleting old backups from local storage...
-----------------------------------------------------------------------
-
-======================================================================
-
-Total disk space used for backup storage:
-
-Size         Location
-14M	/var/backups/postgresql
-
-...Done!
