@@ -1,5 +1,6 @@
 # Config file
 pg_dump-to-s3.conf
+psqlautobackup.sh
 
 # Mac
 .DS_Store
